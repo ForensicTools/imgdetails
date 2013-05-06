@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
 	# Attempts to open the image using the Python Imaging Library's image object
 	# If it opens successfully, the file type is identified and the main is called
-		try:
+	try:
 		im = Image.open(args.imgpath[0])
 		type = what(args.imgpath[0])
 		main()
